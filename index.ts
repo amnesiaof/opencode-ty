@@ -80,7 +80,7 @@ class TyLspClient {
 }
 
 export default {
-  id: "ty-intel",
+  id: "ty",
   async setup(ctx: any) {
     const cwd = ctx.location.directory
     const lsp = new TyLspClient()
